@@ -5,9 +5,9 @@ then
   git clone https://github.com/shukurenaibotcreate/VCVideoPlayerBot /VCVideoplayer
 else
   echo "Cloning $BRANCH branch...."
-  git clone https://github.com/shukurenaibotcreate/VCVideoPlayerBot -b $BRANCH /VCPlayerBot
+  git clone https://github.com/shukurenaibotcreate/VCVideoPlayerBot -b $BRANCH /VCVideoPlayerBot
 fi
-cd /VCPlayerBot
+cd /VCVideoplayer
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 main.py
