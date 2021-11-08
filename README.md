@@ -43,7 +43,7 @@
 1. `API_ID` : Get From [my.telegram.org](https://my.telegram.org/)
 2. `API_HASH` : Get from [my.telegram.org](https://my.telegram.org)
 3. `BOT_TOKEN` : [@Botfather](https://telegram.dog/BotFather)
-4. `SESSION_STRING` : Generate From here [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)]()
+4. `SESSION_STRING` : Generate From here [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)](https://replit.com/@shukurenaibotcr/GenerateStringSession-1)
 5. `CHAT` : ID of Channel/Group where the bot plays Music.
 
 <b>Recommended Optional Vars</b>
@@ -125,7 +125,7 @@ $ python3 main.py
 - Python 3.6 or Higher.
 - [Telegram API key](https://docs.pyrogram.org/intro/quickstart#enjoy-the-api).
 - Latest [FFmpeg Python](https://www.ffmpeg.org/).
-- Pyrogram [String Session]() of the account.
+- Pyrogram [String Session](https://replit.com/@shukurenaibotcr/GenerateStringSession-1) of the account.
 - The User Account Needs To Be An Admin In The Channel/Group.
 
 ---
