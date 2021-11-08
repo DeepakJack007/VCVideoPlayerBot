@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (C) @zautekm
+# Copyright (C) @shukurenai007
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -30,8 +30,8 @@ from pyrogram import (
 
 buttons = [
     [
-        InlineKeyboardButton('😀 Make Own Bot', url='https://github.com/ZauteKm/vcVideoPlayBot'),
-        InlineKeyboardButton('Join Here 📢', url='https://t.me/tgbotsproject'),
+        InlineKeyboardButton('😀 Make Own Bot', url='https://github.com/shukurenaibotcreate/VCVideoPlayerBot'),
+        InlineKeyboardButton('Join Here 📢', url='https://t.me/shukurenai007'),
     ]
     ]
 def get_cmd(dur):
@@ -46,7 +46,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy",
-                input_message_content=InputTextMessageContent(f"{Config.REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/ZauteKm/VCVideoPlayot) below.</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{Config.REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/shukurenaibotcreate/VCVideoPlayerBot) below.</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
