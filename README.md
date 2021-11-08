@@ -1,6 +1,6 @@
 # Telegram VCVideoPlayBot
 
-- An Telegram Bot By [@ZauteKm](https://t.me/ZauteKm) To Stream Videos in Telegram Voice Chat.
+- An Telegram Bot By [@shukurenai007](https://t.me/shukurenai007) To Stream Videos in Telegram Voice Chat.
 
 ---
 
@@ -43,7 +43,7 @@
 1. `API_ID` : Get From [my.telegram.org](https://my.telegram.org/)
 2. `API_HASH` : Get from [my.telegram.org](https://my.telegram.org)
 3. `BOT_TOKEN` : [@Botfather](https://telegram.dog/BotFather)
-4. `SESSION_STRING` : Generate From here [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)](https://replit.com/@ZauteKm/GenerateStringSession)
+4. `SESSION_STRING` : Generate From here [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)]()
 5. `CHAT` : ID of Channel/Group where the bot plays Music.
 
 <b>Recommended Optional Vars</b>
@@ -81,7 +81,7 @@
 <details><summary><b>Deploy to Heroku</b></summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/ZauteKm/VCPlayerBot">
+<a href="https://heroku.com/deploy?template=https://github.com/shukurenaibotcreate/VCVideoPlayerBot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -92,7 +92,7 @@
 <br/>
 
 <p align="left">
-<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FZauteKm%2FVCPlayerBot"
+<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fshukurenaibotcreate%2FVCVideoPlayerBot"
 ">
      <img height="30px" src="https://railway.app/button.svg">
   </a>
@@ -108,8 +108,8 @@
 <br/>
 
 ```sh
-$ git clone https://github.com/ZauteKm/VCPlayerBot.git
-$ cd VCPlayerBot
+$ git clone https://github.com/shukurenaibotcreate/VCVideoPlayerBot.git
+$ cd VCVideoPlayerBot
 $ sudo apt-get install python3-pip ffmpeg
 $ pip3 install -U pip
 $ pip3 install -U -r requirements.txt
@@ -125,7 +125,7 @@ $ python3 main.py
 - Python 3.6 or Higher.
 - [Telegram API key](https://docs.pyrogram.org/intro/quickstart#enjoy-the-api).
 - Latest [FFmpeg Python](https://www.ffmpeg.org/).
-- Pyrogram [String Session](https://replit.com/@ZauteKm/GenerateStringSession) of the account.
+- Pyrogram [String Session]() of the account.
 - The User Account Needs To Be An Admin In The Channel/Group.
 
 ---
