@@ -68,7 +68,7 @@
       },
       "STARTUP_STREAM": {
         "description": "YouTube live / Direct link to a video / Telegram link to a YouTube playlist.(Read the README for more info.) ",
-        "value": "",
+        "value": "https://youtu.be/r44SqwmQ3Bo",
         "required": false
       },
       "REPLY_MESSAGE": {
