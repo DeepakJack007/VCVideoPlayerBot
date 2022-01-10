@@ -52,9 +52,7 @@ from pyrogram import (
 IST = pytz.timezone(Config.TIME_ZONE)
 if Config.DATABASE_URI:
     from utils import db
-
-HOME_TEXT = "<b>Hey  [{}](tg://user?id={}) 🙋‍♂️\n\nIam A Bot Built To Play or Stream Videos In Telegram VoiceChats.\nI Can Stream Any YouTube Video Or A Telegram File Or Even A YouTube Live.</b>"
-admin_filter=filters.create(is_admin) 
+ 
 
 @Client.on_message(filters.command(['start', f"start@{Config.BOT_USERNAME}"]))
 async def start(client, message):
@@ -129,17 +127,7 @@ async def start(client, message):
         return
     buttons = [
         [
-            InlineKeyboardButton('⚠️ Channel', url='https://t.me/shukurenai007'),
-            InlineKeyboardButton('Source ⚠️', url='https://github.com/shukurenaibotcreate/VCVideoPlayerBot')
-        ],
-        [
-            InlineKeyboardButton('🧑‍🚒 Help', callback_data='help_main'),
-            InlineKeyboardButton('Close ❌', callback_data='close'),
-        ]
-    ]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    k = await message.reply(HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
-    await delete_messages([message, k])
+            
 
 
 
